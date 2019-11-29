@@ -1,0 +1,29 @@
+{
+  "name": "@feizheng/boilerplate-webkit-sassui",
+  "version": "1.0.0",
+  "description": "boilerplate-webkit-sassui-description",
+  "homepage": "https://github.com/afeiship/boilerplate-webkit-sassui",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "node server.js",
+    "test": "gulp test",
+    "release": "gulp && gulp test"
+  },
+  "main": "dist/boilerplate-webkit-sassui.scss",
+  "license": "MIT",
+  "devDependencies": {
+    "@feizheng/rake-git": "^1.2.1",
+    "autoprefixer": "^9.7.2",
+    "del": "^5.1.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
