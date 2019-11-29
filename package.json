@@ -13,7 +13,7 @@
     "test": "gulp test",
     "release": "gulp && gulp test"
   },
-  "main": "dist/style.scss",
+  "main": "dist/index.scss",
   "license": "MIT",
   "devDependencies": {
     "@feizheng/rake-git": "^1.2.1",
