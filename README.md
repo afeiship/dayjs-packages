@@ -10,7 +10,7 @@ npm i -S @feizheng/boilerplate-webkit-sassui
 + https://afeiship.github.io/boilerplate-webkit-sassui/
 
 ```scss
-@import 'node_modules/boilerplate-webkit-sassui/dist/boilerplate-webkit-sassui.scss';
+@import 'node_modules/boilerplate-webkit-sassui/dist/index.scss';
 ```
 
 ## resources
