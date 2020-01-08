@@ -12,3 +12,4 @@ gulpfile.js
 LICENSE.txt
 Rakefile
 server.js
+.prettierrc
