@@ -14,7 +14,7 @@ npm i -S @feizheng/boilerplate-webkit-sassui
 @import 'node_modules/boilerplate-webkit-sassui/dist/index.scss';
 
 // webkit
-@import '~@feizheng/webkit-sassui-moveup';
+@import '~@feizheng/boilerplate-webkit-sassui';
 ```
 
 ## resources
