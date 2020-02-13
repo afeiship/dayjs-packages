@@ -7,9 +7,9 @@
   });
 
   //styles
-  gulp.task('test', function() {
+  gulp.task('docs', function() {
     return gulp
-      .src('docs/test.scss')
+      .src('docs/docs.scss')
       .pipe($.sass({ outputStyle: 'expanded' }).on('error', $.sass.logError))
       .pipe(gulp.dest('docs'));
   });

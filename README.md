@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm i -S @feizheng/boilerplate-webkit-sassui
+npm i @feizheng/boilerplate-webkit-sassui
 ```
 
 ## usage

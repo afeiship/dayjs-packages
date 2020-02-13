@@ -9,13 +9,12 @@
   },
   "scripts": {
     "build": "gulp",
-    "start": "node server.js",
-    "test": "gulp test",
-    "release": "gulp && gulp test"
+    "start": "node server.js"
   },
   "main": "dist/index.scss",
   "license": "MIT",
   "devDependencies": {
+    "@feizheng/gulp-pkg-header": "^1.0.2",
     "@feizheng/rake-git": "^1.2.1",
     "autoprefixer": "^9.7.2",
     "del": "^5.1.0",
