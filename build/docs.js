@@ -9,7 +9,7 @@
   //styles
   gulp.task('docs', function() {
     return gulp
-      .src('docs/docs.scss')
+      .src('docs/style.scss')
       .pipe($.sass({ outputStyle: 'expanded' }).on('error', $.sass.logError))
       .pipe(gulp.dest('docs'));
   });
