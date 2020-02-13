@@ -1,19 +1,16 @@
 # boilerplate-webkit-sassui
 > boilerplate-webkit-sassui-description
 
+## documentation
+- https://afeiship.github.io/boilerplate-webkit-sassui/
+
 ## installation
 ```shell
 npm i @feizheng/boilerplate-webkit-sassui
 ```
 
 ## usage
-+ https://afeiship.github.io/boilerplate-webkit-sassui/
-
 ```scss
-// in sass file:
-@import 'node_modules/boilerplate-webkit-sassui/dist/index.scss';
-
-// webkit
 @import '~@feizheng/boilerplate-webkit-sassui';
 ```
 
