@@ -15,4 +15,4 @@ npm i @feizheng/boilerplate-webkit-sassui
 ```
 
 ## resources
-+ https://github.com/afeiship/generator-webkit-sassui
+- https://github.com/afeiship/generator-webkit-sassui
