@@ -10,7 +10,12 @@
   gulp.task('docs', function() {
     return gulp
       .src('docs/style.scss')
-      .pipe($.sass({ outputStyle: 'expanded' }).on('error', $.sass.logError))
+      .pipe(
+        $.sass({
+          outputStyle: 'expanded',
+          includePaths: $.SASS_INCLUDE_PATHS,
+        }).on('error', $.sass.logError)
+      )
       .pipe(gulp.dest('docs'));
   });
 })();

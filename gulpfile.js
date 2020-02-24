@@ -8,6 +8,8 @@
     pattern: ['gulp-*', 'gulp.*', 'del'],
   });
 
+  $.SASS_INCLUDE_PATHS = [path.join(__dirname, '/node_modules/')];
+
   //import
   fs.readdirSync('./build').map(function(file) {
     require('./build/' + file);
