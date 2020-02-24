@@ -15,6 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "@feizheng/gulp-pkg-header": "^1.0.2",
+    "@feizheng/next-global": "^1.0.2",
     "@feizheng/rake-git": "^1.2.1",
     "autoprefixer": "^9.7.4",
     "del": "^5.1.0",
@@ -29,7 +30,6 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@feizheng/next-global": "^1.0.2",
     "@feizheng/webkit-sass-default-props": "^1.0.0"
   }
 }
