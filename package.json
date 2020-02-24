@@ -27,5 +27,9 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@feizheng/next-global": "^1.0.2",
+    "@feizheng/webkit-sass-default-props": "^1.0.0"
   }
 }

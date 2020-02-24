@@ -1,14 +1,15 @@
 (function() {
   'use strict';
 
-  var path = require('path');
   var gulp = require('gulp');
+  var path = require('path');
   var fs = require('fs');
-  var $ = require('gulp-load-plugins')({
-    pattern: ['gulp-*', 'gulp.*', 'del'],
-  });
+  var includePaths = [path.join(__dirname, '/node_modules/')];
 
-  $.SASS_INCLUDE_PATHS = [path.join(__dirname, '/node_modules/')];
+  // save globals
+  require('@feizheng/next-global');
+  nx.global(null);
+  nx.$global = { includePaths };
 
   //import
   fs.readdirSync('./build').map(function(file) {
