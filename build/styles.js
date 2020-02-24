@@ -4,7 +4,7 @@
   var gulp = require('gulp');
   var path = require('path');
   var autoprefixer = require('autoprefixer');
-  var SASS_INCLUDE_PATHS = [path.join(__dirname, '/node_modules/')];
+  var SASS_INCLUDE_PATHS = [path.join(__dirname, '..', '/node_modules/')];
   var $ = require('gulp-load-plugins')({
     pattern: ['gulp-*', 'gulp.*', 'del', '@feizheng/gulp-*'],
   });
