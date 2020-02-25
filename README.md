@@ -1,12 +1,14 @@
 # boilerplate-webkit-sassui
 > boilerplate-webkit-sassui-description
 
-## documentation
-- https://afeiship.github.io/boilerplate-webkit-sassui/
-
 ## installation
 ```shell
 npm i @feizheng/boilerplate-webkit-sassui
+```
+
+## update
+```shell
+npm update @feizheng/boilerplate-webkit-sassui
 ```
 
 ## usage
@@ -14,5 +16,5 @@ npm i @feizheng/boilerplate-webkit-sassui
 @import '~@feizheng/boilerplate-webkit-sassui';
 ```
 
-## resources
-- https://github.com/afeiship/generator-webkit-sassui
+## documentation
+- https://afeiship.github.io/boilerplate-webkit-sassui/
