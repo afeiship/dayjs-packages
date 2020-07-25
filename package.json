@@ -1,5 +1,5 @@
 {
-  "name": "@feizheng/boilerplate-webkit-sassui",
+  "name": "@boilerplate-scope/boilerplate-webkit-sassui",
   "version": "1.0.0",
   "description": "boilerplate-webkit-sassui-description",
   "homepage": "https://github.com/afeiship/boilerplate-webkit-sassui",
@@ -28,8 +28,5 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  },
-  "dependencies": {
-    "@feizheng/webkit-sass-default-props": "^1.0.0"
   }
 }
