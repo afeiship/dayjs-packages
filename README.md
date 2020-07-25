@@ -8,11 +8,10 @@
 
 ## installation
 ```shell
+# install
 npm i @boilerplate-scope/boilerplate-webkit-sassui
-```
 
-## update
-```shell
+# update
 npm update @boilerplate-scope/boilerplate-webkit-sassui
 ```
 
