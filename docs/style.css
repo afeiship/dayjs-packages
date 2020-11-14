@@ -1,12 +1,12 @@
 /*!
- * name: @feizheng/boilerplate-webkit-sassui
- * description: boilerplate-webkit-sassui-description
- * url: https://github.com/afeiship/boilerplate-webkit-sassui
+ * name: @feizheng/boilerplate-wsui
+ * description: boilerplate-wsui-description
+ * url: https://github.com/afeiship/boilerplate-wsui
  * version: 1.0.0
  * date: 2020-02-24 22:07:09
  * license: MIT
  */
-/*boilerplate-webkit-sassui Start*/
+/*boilerplate-wsui Start*/
 /* flex-align start*/
 /* flex-align end*/
 /* flex-direction start*/
@@ -17,7 +17,7 @@
 /* vertical-align end*/
 /* vertical-align start*/
 /* vertical-align end*/
-/*boilerplate-webkit-sassui End*/
-.test-boilerplate-webkit-sassui {
+/*boilerplate-wsui End*/
+.test-boilerplate-wsui {
   border: 1px solid red;
 }
