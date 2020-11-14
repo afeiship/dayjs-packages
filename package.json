@@ -14,7 +14,6 @@
   "main": "dist/index.scss",
   "license": "MIT",
   "devDependencies": {
-    "@jswork/next-global": "^1.0.0",
     "@jswork/gulp-pkg-header": "^1.0.1",
     "autoprefixer": "^9.7.4",
     "del": "^5.1.0",
