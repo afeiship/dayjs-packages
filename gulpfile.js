@@ -7,7 +7,7 @@
   var includePaths = [path.join(__dirname, '/node_modules/')];
 
   // save globals
-  require('@feizheng/next-global');
+  require('@jswork/next-global');
   nx.global(null);
   nx.$global = { includePaths };
 

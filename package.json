@@ -1,22 +1,21 @@
 {
-  "name": "@boilerplate-scope/boilerplate-webkit-sassui",
+  "name": "@boilerplate-scope/boilerplate-wsui",
   "version": "1.0.0",
-  "description": "boilerplate-webkit-sassui-description",
-  "homepage": "https://github.com/afeiship/boilerplate-webkit-sassui",
+  "description": "boilerplate-wsui-description",
+  "homepage": "https://github.com/afeiship/boilerplate-wsui",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
   },
   "scripts": {
     "build": "gulp",
-    "start": "node server.js"
+    "start": "serve docs"
   },
   "main": "dist/index.scss",
   "license": "MIT",
   "devDependencies": {
-    "@feizheng/gulp-pkg-header": "^1.0.2",
-    "@feizheng/next-global": "^1.0.2",
-    "@feizheng/rake-git": "^1.2.1",
+    "@jswork/next-global": "^1.0.0",
+    "@jswork/gulp-pkg-header": "^1.0.1",
     "autoprefixer": "^9.7.4",
     "del": "^5.1.0",
     "express": "^4.17.1",
@@ -27,6 +26,7 @@
     "gulp-sass": "^4.0.2"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   }
 }
