@@ -16,9 +16,6 @@ npm i @boilerplate-scope/boilerplate-wsui
 @import '~@boilerplate-scope/boilerplate-wsui';
 ```
 
-## documentation
-- https://afeiship.github.io/boilerplate-wsui/
-
 ## license
 Code released under [the MIT license](https://github.com/afeiship/boilerplate-wsui/blob/master/LICENSE.txt).
 
