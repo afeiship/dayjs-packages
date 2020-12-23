@@ -13,7 +13,10 @@ npm i @boilerplate-scope/boilerplate-wsui
 
 ## usage
 ```scss
-@import '~@boilerplate-scope/boilerplate-wsui';
+// use sass
+@import '~@boilerplate-scope/boilerplate-wsui/dist/index.scss';
+// use css
+@import '~@boilerplate-scope/boilerplate-wsui/dist/style.css';
 ```
 
 ## license
