@@ -19,6 +19,9 @@ npm i @boilerplate-scope/boilerplate-wsui
 @import '~@boilerplate-scope/boilerplate-wsui/dist/style.css';
 ```
 
+## preview
+- https://afeiship.github.io/boilerplate-wsui/
+
 ## license
 Code released under [the MIT license](https://github.com/afeiship/boilerplate-wsui/blob/master/LICENSE.txt).
 
