@@ -31,9 +31,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "boilerplate": "@boilerplate-scope/boilerplate-wsui",
+  "boilerplate": "boilerplate-wsui",
   "repository": {
     "type": "git",
-    "url": "https://github.com/afeiship/@boilerplate-scope/boilerplate-wsui"
+    "url": "https://github.com/afeiship/boilerplate-wsui.git"
   }
 }
