@@ -2,7 +2,7 @@
   "name": "@boilerplate-scope/boilerplate-wsui",
   "version": "1.0.0",
   "description": "boilerplate-wsui-description",
-  "homepage": "https://github.com/afeiship/boilerplate-wsui",
+  "homepage": "https://js.work",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -30,5 +30,10 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "boilerplate": "@boilerplate-scope/boilerplate-wsui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afeiship/@boilerplate-scope/boilerplate-wsui"
   }
 }
