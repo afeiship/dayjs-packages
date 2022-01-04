@@ -3,6 +3,7 @@
 
   var gulp = require('gulp');
   var autoprefixer = require('autoprefixer');
+  var sass = require('gulp-dart-sass');
   var $ = require('gulp-load-plugins')({
     pattern: ['gulp-*', 'gulp.*', 'del', '@jswork/gulp-*'],
   });
@@ -13,7 +14,7 @@
       .src('src/*.scss')
       .pipe($.jswork.pkgHeader())
       .pipe(gulp.dest('dist'))
-      .pipe($.sass())
+      .pipe(sass())
       .pipe($.postcss([autoprefixer()]))
       .pipe($.rename('style.css'))
       .pipe(gulp.dest('dist'));
