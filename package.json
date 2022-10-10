@@ -7,6 +7,9 @@
     "name": "afeiship",
     "email": "1290657123@qq.com"
   },
+  "scripts": {
+    "docker:exec": "docker exec -it mongodb-container bash"
+  },
   "license": "MIT",
   "generator": "@jswork/generator-github"
 }
