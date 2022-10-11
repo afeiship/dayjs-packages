@@ -8,6 +8,8 @@
     "email": "1290657123@qq.com"
   },
   "scripts": {
+    "reset": "rm -rf ./data",
+    "docker:restart": "docker-compose down  && docker-compose up -d",
     "docker:exec": "docker exec -it mongodb-container bash"
   },
   "license": "MIT",
