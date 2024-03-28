@@ -9,7 +9,9 @@
   },
   "scripts": {
     "reset": "rm -rf ./data",
-    "docker:restart": "docker-compose down  && docker-compose up -d",
+    "docker:up-d": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:restart": "docker-compose down && docker-compose up -d",
     "docker:exec": "docker exec -it mongodb-container bash"
   },
   "license": "MIT",
