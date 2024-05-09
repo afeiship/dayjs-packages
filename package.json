@@ -1,19 +1,23 @@
 {
-  "name": "docker-mongodb",
-  "version": "1.0.0",
-  "description": "Docker for mongodb.",
-  "homepage": "https://js.work",
-  "author": {
-    "name": "afeiship",
-    "email": "1290657123@qq.com"
+  "name": "dayjs-packages",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
   },
   "scripts": {
-    "reset": "rm -rf ./data",
-    "docker:up-d": "docker-compose up -d",
-    "docker:down": "docker-compose down",
-    "docker:restart": "docker-compose down && docker-compose up -d",
-    "docker:exec": "docker exec -it mongodb-container bash"
+    "start": "yarn --cwd packages/websites start",
+    "lerna:clean": "lerna clean",
+    "lerna:list": "lerna list",
+    "lerna:bootstrap": "lerna bootstrap",
+    "build": "lerna run build --since master --no-private",
+    "build:all": "lerna run build",
+    "publish": "npm run build && lerna publish --no-private"
   },
-  "license": "MIT",
-  "generator": "@jswork/generator-github"
+  "homepage": "https://js.work",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afeiship/dayjs-packages.git"
+  }
 }
