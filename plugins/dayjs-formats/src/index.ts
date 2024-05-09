@@ -14,9 +14,9 @@ const CUSTOM_FORMATS = {
 const customFormatsPlugin: PluginFunc = (option, dayjsClass, dayjsFactory) => {
   const oldFormat = dayjsClass.prototype.format;
   dayjsClass.prototype.format = function(formatStr, ...args) {
-    const isCustomFormat = Object.keys(CUSTOM_FORMATS).includes(formatStr!);
-    if (formatStr && isCustomFormat) {
-      return oldFormat.call(this, CUSTOM_FORMATS[formatStr], ...args);
+    const isCustomFormat = Boolean(formatStr && formatStr in CUSTOM_FORMATS);
+    if (isCustomFormat) {
+      return oldFormat.call(this, CUSTOM_FORMATS[formatStr!], ...args);
     }
     return oldFormat.call(this, formatStr, ...args);
   };
