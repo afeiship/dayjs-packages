@@ -1,16 +1,15 @@
 {
   "version": "independent",
   "npmClient": "yarn",
-  "useWorkspaces": true,
   "packages": [
-    "packages/*"
+    "plugins/*"
   ],
   "ignoreChanges": [
     "CHANGELOG.md",
     "**/__tests__/**"
   ],
   "ignore": [
-    "packages/websites"
+    "plugins/websites"
   ],
   "command": {
     "publish": {

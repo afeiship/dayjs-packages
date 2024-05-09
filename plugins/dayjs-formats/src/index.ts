@@ -1,5 +1,8 @@
 import { PluginFunc } from 'dayjs';
 
+// https://github.com/iamkun/dayjs/issues/1605
+// https://github.com/aric-notes/dayjs-notes/blob/main/src/plugins/my-plugin.js
+
 const CUSTOM_FORMATS = {
   date: 'YYYY-MM-DD',
   time: 'hh:mm:ss',
