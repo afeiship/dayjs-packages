@@ -11,10 +11,15 @@ const CUSTOM_FORMATS = {
   dbdt: 'YYYYMMDD_hhmmss',
 };
 
-const customFormatsPlugin: PluginFunc = (option, dayjsClass, dayjsFactory) => {
+interface DayjsFormatsPluginOptions {
+  formats: Record<string, string>;
+}
+
+const customFormatsPlugin: PluginFunc<any> = (options: DayjsFormatsPluginOptions, dayjsClass) => {
   const oldFormat = dayjsClass.prototype.format;
-  dayjsClass.prototype.format = function(formatStr, ...args) {
-    const isCustomFormat = Boolean(formatStr && formatStr in CUSTOM_FORMATS);
+  const latestFormats = { ...CUSTOM_FORMATS, ...options.formats };
+  dayjsClass.prototype.format = function (formatStr, ...args) {
+    const isCustomFormat = Boolean(formatStr && formatStr in latestFormats);
     if (isCustomFormat) {
       return oldFormat.call(this, CUSTOM_FORMATS[formatStr!], ...args);
     }
